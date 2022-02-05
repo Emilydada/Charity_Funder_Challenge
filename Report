@@ -1,0 +1,31 @@
+
+1. **Overview** of the analysis: Explain the purpose of this analysis.
+The anaylsis purpose: By cleaning up the data available to create the machine learning model to train the machine to see how's the model performance.
+The accuracy of model ended up with 73% and loss of 55% dta. The model is yet to be determined as optimal choice.
+
+
+2. **Results**: Using bulleted lists and images to support your answers, address the following questions.
+
+  * Data Preprocessing
+    * What variable(s) are considered the target(s) for your model?
+Application type and classfication type
+
+    * What variable(s) are considered to be the features for your model?
+ Affiliation, use Case and organization are the features for my model.
+ 
+    * What variable(s) are neither targets nor features, and should be removed from the input data?
+The EIN and Name and successful_code are unnecessary, inwhich not help with training the model.
+
+  * Compiling, Training, and Evaluating the Model
+    * How many neurons, layers, and activation functions did you select for your neural network model, and why?
+Two layers by selecting the features of the variables.
+
+    * Were you able to achieve the target model performance?
+No performance stays with 73% 
+
+    * What steps did you take to try and increase model performance?
+increse the echo, change the number of neurons, and change and increse the layers.
+
+3. **Summary**: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+In further research, I would like to pull out the loss of data to see how the outliers look like, why and how those made up the loss because the loss of data is 55%.
+Try to solve the data loss by adding other features to increase the overall performance.
